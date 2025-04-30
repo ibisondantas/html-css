@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+   background-color: #140d1a;
+   font-family: 'Gothic', Times, serif;
+    
+
+   }
+
+h1 {
+    color: black;
+}
+h1#principal {
+    color: black;
+    text-align: center;
+    text-shadow: 3px 2px 3px;
+    background-color: #969ba2;
+}
+
+
+main {
+    border-radius: 10px;
+    width: 600px;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 3px 3px 3px #ededf2;
+    background-color: #ededf2;
+
+}
+.basico {
+    color: red;
+}
+
+.intermediario {
+    color: blue;
+}
+
+.avancado {
+    color: green;
+}
+
+.destaque {
+    background-color: #969ba2;
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+    text-align: justify;
+    text-align: center;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+main {
+    box-shadow: 5px 5px 5px darkgray;
+    background-color: #288d85;
+    padding: 5px;
+    width: 900px;
+    background-attachment: fixed;
+    border-radius: 20;
+    margin: auto;
+}
+
+h1 {
+    color: #002642;
+}
+
+p {
+    color: #002642;
+}
+

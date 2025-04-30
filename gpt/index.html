@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Centralizando uma Div</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* altura total da tela */
+      background-color: #121212;
+    }
+
+    .box {
+      width: 300px;
+      height: 200px;
+      background-color: #3b82f6;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      text-align: center;
+      line-height: 200px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Centralizada! 😎</div>
+  </div>
+</body>
+</html>
