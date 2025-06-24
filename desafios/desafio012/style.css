@@ -9,7 +9,7 @@
 
 header {
     
-    height: 275px;
+    height: 277px;
     text-align: center;
     background-color: black;
     color: white;
@@ -17,10 +17,10 @@ header {
 h1{
     font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 9vw;
-    font-weight: 400px;
+    font-size: 10vw;
+    font-weight: 450px;
     font-style: normal;
-    padding-top: 45px;
+    padding-top: 50px;
     
 }
 header a{
@@ -30,6 +30,14 @@ header a{
     
 }
 
+header a{
+    font-weight: bolder;
+}
+
+header p{
+    font-family: var(--fonte1);
+}
+
 a:hover{
     text-decoration: underline;
 }
@@ -37,6 +45,7 @@ a:hover{
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 body{
@@ -44,11 +53,38 @@ body{
     
 }
 
+.parallax{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: 3px;
+    color: white;
+
+}
+
+.parallax2{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: 3px;
+    color: white;
+}
+
+.content > section > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 5px;
+    
+}
+
+
 section{
     line-height: 2em;
     padding-bottom: 10vh;
     padding-top: 10vh;
-    padding-left: 20px;
+    padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
@@ -66,4 +102,9 @@ footer a{
     font-family: var(--fonte1);
     color: white;
     text-decoration: none;
+}
+
+footer p{
+    font-weight: bolder;
+    font-family: var(--fonte1);
 }
