@@ -27,12 +27,9 @@ header a{
     font-family: var(--fonte1);
     color: white;
     text-decoration: none;
-    
-}
-
-header a{
     font-weight: bolder;
 }
+
 
 header p{
     font-family: var(--fonte1);
@@ -61,6 +58,7 @@ body{
     background-attachment: fixed;
     box-shadow: 3px;
     color: white;
+    box-shadow: inset 6px 6px 15px black;
 
 }
 
@@ -71,13 +69,13 @@ body{
     background-attachment: fixed;
     box-shadow: 3px;
     color: white;
+    box-shadow: inset 6px 6px 15px black;
 }
 
 .content > section > p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.514); 
     padding: 5px;
-    
 }
 
 
