@@ -10,6 +10,12 @@
             text-align: center;
         }
 
+        caption{
+            font-size: 1.2em;
+            padding: 5px;
+            font-weight: bold;
+        }
+
         thead, tfoot{
             background-color: cornflowerblue;
         }
@@ -40,6 +46,7 @@
          anatomia para tabelas grandes
 
          table
+            caption
                thead
                     tr, td, th
                tbody
@@ -49,10 +56,11 @@
     -->
 
     <table>
+        <caption>população das unidades federativas</caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 120px;">população</th>
             </tr>
         </thead>
 
@@ -196,7 +204,7 @@
 
         <tfoot>
             <tr>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td class="num"><strong>210 147 125</strong></td>
             </tr>
         </tfoot>
