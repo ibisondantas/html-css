@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+       table{
+        border-collapse: collapse;
+       }
+
+       caption{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+       }
+
+       td{
+        text-align: center;
+        border: 1px solid black;
+        width: 100px;
+        padding: 10px;
+       }
+
+       td.cor{
+        background-color: blue;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>mesclagem de celulas</h1>
+
+    <table>
+        <caption>Uma Tabela</caption>
+        <tr>
+            <td>A</td>
+            <td class="cor" colspan="2">B</td>
+            
+        </tr>
+            
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td rowspan="3">F</td>
+        </tr>
+            
+        <tr>
+            
+            <td>H</td>
+            <td>I</td>
+        </tr>
+
+        <tr>
+            
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+</body>
+</html>
