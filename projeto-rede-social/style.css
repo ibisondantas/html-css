@@ -15,7 +15,7 @@
         #tela{
             position: relative;
             top: 80px;
-            left: 21px;
+            left: 22px;
             width: 268px;
             height: 471px;
         }
@@ -28,6 +28,7 @@
             background: url('imagens/frame-iphone.png') no-repeat;
             height: 627px;
             width: 311px;
+
         }
 
         main{
@@ -39,15 +40,16 @@
             text-align: right;
             padding: 10px;
             
+            
         }
 
         .rede-social a img{
-            border-radius: 50px;
+            border-radius: 50%;
             height: 50px;
             width: 50px;
-            display: block;
             margin-bottom: 20px;
             display: inline-block;
+            box-shadow: 1px 1px 3px  rgba(0, 0, 0, 0.596);
         }
 
         a{
@@ -58,10 +60,12 @@
 
         a img:hover{
             padding-right: 2px;
-            border: 1px solid purple;
+            border: 2px solid rgba(255, 255, 255, 0.795);
             border-radius: 50px;
-            filter: grayscale(10%);
-            
+            box-sizing: border-box;
+            transform: translate(-4px, -4px);
+            box-shadow: 4px 3px 7px black;
+            transition: transform 0.9s, border .4s;
         }
 
         
