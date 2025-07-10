@@ -10,15 +10,34 @@
             margin: 0%;
         }
 
-        body{
-            background: black url('imagens/tela-facebook.jpg') no-repeat top center;
-            height: 100vh;
-            width: 100vw;
-            
+        ::-webkit-scrollbar{
+            height: 0px;
+            width: 0px;
         }
+
+        img{
+            width: 100vw;
+        }
+
+        a{
+            display: block;
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+        }
+
+        a:hover{
+        background-color: darkred;
+       }
+
 
     </style>
 </head>
-<body></body>
+<body>
+    <img src="imagens/tela-facebook.jpg" alt="facebook">
+    <a href="#" target="_blank">ACESSE</a>
+</body>
 
 </html>
