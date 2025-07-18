@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    h1, h2{
+        text-align: center;
+    }
+
+    header{
+        padding: 30px;
+        background-color: #c5a898;
+    }
+
+    form{
+        width: 400px;
+        
+    }
+
+    fieldset{
+        padding: 10px;
+        background-color: #fff1ce;
+        padding: 15px;
+        
+    }
+
+    .mov{
+        margin-left: 150px;
+        background-color: #c5a898;
+    }
+
+    .mov2{
+        margin-left: -1px;
+        background-color: #c5a898;
+    }
+
+    main{
+        width: 800px;
+        margin: auto;
+        background-color: #fff1ce;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    body{
+        background-color: #d7bf5e;
+    }
+
+    </style>
+</head>
+<body>
+    
+
+    <header>
+
+        <h1>Formulario Ex</h1>
+
+        <form action="cadastro.php" method="get" required autocomplete="on">
+
+            <fieldset>
+                <legend>Dados De Login</legend>
+
+                <p>
+        
+                <label for="mail">Email</label>
+                <input type="email" name="email" id="mail" required autocomplete="email"><br><br>
+                </p>
+
+                <p>
+                <label for="tel">Telefone</label>
+                <input type="tel" name="telefone" id="tel" autocomplete="tel" required><br><br>
+                </p>
+
+                <p>
+                <label for="sen">Senha</label>
+                <input type="password" name="senha" id="sen" autocomplete="current-password" required><br><br>
+                </p>
+
+                <p>
+        
+                <input class="mov" type="submit" value="enviar">
+                <input class="mov2" type="reset" value="limpar">
+        
+                </p>
+            </fieldset>
+    </header>
+
+    </form>
+
+    
+
+    <main>
+        <h2>Sub</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ullam possimus expedita officia, amet tempora praesentium dolores? Cum magni itaque, provident, exercitationem quas culpa voluptatibus rem accusamus excepturi quam harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repudiandae molestiae veritatis iste vel corrupti? Tempore, explicabo ullam. Autem, numquam quia sunt deleniti amet magni quae. Blanditiis explicabo eius soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae unde autem rerum aliquam laborum ea? Placeat, quasi! Dolor voluptas nulla accusamus quia aperiam numquam natus animi quaerat ipsa beatae.</p>
+    </main>
+</body>
+</html>
