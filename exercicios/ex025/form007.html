@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 007</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo</h1>
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="est">estado:</label>
+            <select name="estado" id="est">
+                <optgroup label="região norte">
+                    <option value="Acre">Acre</option>
+                    <option value="AM">Manaus</option>
+                    <option value="RN">Rio grande do norte</option>
+                </optgroup>
+
+                <optgroup label="Região sul">
+                    <option value="RS">Rio grande do sul</option>
+                    <option value="SC">Santa catarina</option>
+                    <option value="PR">Parana</option>
+                </optgroup>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="pro">profissão:</label>
+            <input type="text" name="profisão" id="pro" list="alist">
+
+            <datalist id="alist">
+                <option>Bonbeiro</option>
+                <option>Enprendedor</option>
+                <option>Vendedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="are">Mensagem:</label><br>
+            <textarea name="mensagem" id="are" cols="30" rows="10"></textarea>
+        </p>
+       
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

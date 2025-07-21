@@ -4,6 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>novo formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <style>
+
+        
+
+        ::-webkit-scrollbar{
+            height: 0px;
+            width: 0px;
+        }
+
+        h1, h2{
+            text-align: center;
+            font-family: "Bungee", sans-serif;
+        }
+
+        body{
+            min-height: 100vh;
+            
+        }
+
+        section{
+            line-height: 1em;
+            padding-bottom: 10vh;
+            padding-top: 10vh;
+            font-size: 3.5vw; 
+        }
+
+      section, p{
+        text-align: justify;
+        font-size: 3.5vw;
+        
+        
+      }
+
+      .direita{
+        text-align: left;
+        position: relative;
+        margin-top: -70px;
+        width: 600px;
+      }
+
+     a img{
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        
+      }
+
+      .parallax{
+        background-image: url("imagem/background001.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+      .parallax2{
+        background-image: url("https://static.todamateria.com.br/upload/oq/ue/o-que-e-paisagem-og.jpg?class=ogImageWide");
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+      .content{
+       display: inline-block;
+       color: white;
+      }
+
+    </style>
 </head>
 <body>
 
@@ -13,8 +81,8 @@
 
         <fieldset>
             <legend>Sexo</legend>
-            <input type="radio" name="sexo" id="mas"> <label for="mas">masculino</label><br>
-            <input type="radio" name="sexo" id="fem"> <label for="fem">feminino</label>
+            <input type="radio" name="sexo" id="mas" required> <label for="mas">masculino</label><br>
+            <input type="radio" name="sexo" id="fem" required> <label for="fem">feminino</label>
         </fieldset>
    
         <fieldset>
@@ -34,5 +102,46 @@
             <input type="reset" value="limpar">
         </p>
     </form>
+
+    <h2>Set</h2>
+        <section>
+        <p><a href="#"><img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="imagem"></a></p>
+    </section>
+        
+    <div class="parallax">
+        <div class="content">
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br>Ex totam fugit iste pariatur
+                </p>
+            </section>
+        </div>
+    </div><br> <br>
+
+      <div>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus sed ipsa unde itaque ipsum, dolore in consequatur accusamus odit iusto molestiae fuga sapiente assumenda impedit. Earum voluptatibus ullam tenetur ipsam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus atque nulla aperiam eveniet reiciendis quas adipisci maxime, repudiandae doloremque voluptatibus fugiat praesentium sunt magni dolorum iusto, temporibus architecto maiores molestiae?
+        </p><br> <br>
+      </div>
+
+    <div class="parallax2">
+        <div class="content">
+            <section>
+                <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit. <br>Delectus dolorem debitis </p>
+            </section>
+        </div>
+    </div>
+
+    <section>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid saepe ipsam eius eos blanditiis similique reprehenderit nobis est ea expedita facilis aliquam obcaecati alias quisquam, repudiandae doloribus dicta cupiditate laudantium? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sit unde nisi blanditiis, excepturi nemo praesentium expedita, neque quas libero dolores numquam debitis dignissimos voluptates, sapiente nobis repellendus fuga dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore provident explicabo pariatur earum, consequatur neque, nemo voluptas nulla quidem corporis totam porro cupiditate itaque! Fugiat, itaque? Quo labore perspiciatis voluptas.
+        </p>
+    </section>
+
+    <section>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nemo maxime in aliquam doloribus laboriosam optio! Aliquid nisi, omnis adipisci obcaecati quam eos. Earum placeat excepturi, est rerum nostrum minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam animi ex, eveniet aliquam tempore odit quidem ducimus dolorem ullam culpa dolorum, quas exercitationem unde laborum voluptatem! Recusandae, praesentium fugiat!
+        </p>
+    </section>
 </body>
 </html>
