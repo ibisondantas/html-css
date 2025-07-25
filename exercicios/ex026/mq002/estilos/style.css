@@ -7,8 +7,18 @@
     margin: 0%;
 }
 
-:root{
-    --cor0:#bec3bc;
-    --cor1:#65727a;
-    --cor2:#2d3839;
+
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-shadow: 3px 3px 2px #2d3839;
+    padding: 8px;
+    text-align: center;
 }
