@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color: #34344e;
+    background-color: rgb(59, 58, 58);
 }
 
 #burguer{
@@ -38,6 +38,11 @@ h1, h2{
     
 }
 
+body{
+    background-color: #717f85;
+    height: 100%;
+}
+
 main {
   text-align: justify;
   width: 100%;
@@ -56,8 +61,13 @@ main, p{
     text-indent: 20px;
 }
 
-body{
-    
+video{
+    max-height: 600px;
+    max-width: 600px;
+}
+
+div{
+    padding-left: 200px;
 }
 
 li{
@@ -83,4 +93,12 @@ li:hover{
 a:hover{
     color: #000000;
     
+}
+
+footer p{
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0%;
 }
