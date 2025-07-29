@@ -3,10 +3,11 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: "Noto Serif", serif;
 }
 
 header{
-    background-color: gray;
+    background-color: #34344e;
 }
 
 #burguer{
@@ -26,19 +27,29 @@ menu{
     display: none;
 }
 
+h1{
+    color: white;
+    font-size: 3em;
+}
+
 h1, h2{
     text-align: center;
     padding: 20px;
+    
 }
 
-main{
-    text-align: justify;
-    width: 800px;
-    margin: auto;
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
+main {
+  text-align: justify;
+  width: 100%;
+  max-width: 800px;   /* Limita a largura máxima */
+  margin: auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  height: auto;
+  box-sizing: border-box;
 }
+
 
 main, p{
     margin-bottom: 20px;
@@ -46,29 +57,30 @@ main, p{
 }
 
 body{
-    background-color: lightgray;
+    
 }
 
 li{
     border-top: 2px solid gray;
-    background-color: rgb(61, 59, 59);
+    background-color: #cbdad5;
     text-align: center;
-    padding: 9px;
+    padding: 4px;
 
 }
 
 a{
     display: block;
     text-decoration: none;
-    color: lightgray;
+    color: rgb(77, 75, 75);
     
 }
 
 li:hover{
-    background-color: lightgray;
-    
+    background-color: #89a7b1;
+    box-shadow: 2px 2px 2px black;
 }
 
 a:hover{
-    color: black;
+    color: #000000;
+    
 }
