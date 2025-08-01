@@ -13,87 +13,70 @@
 
 h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    margin-top: -10px;
+    padding: 7px;
 }
 
- body{
-    height: 100%;
-    margin: 0%;
+.espaço{
+    text-align: justify;
+    font-size: 0.9em;
+    padding: 5px;
 }
 
-body{
-    overflow: hidden;
-    background: linear-gradient(to bottom, var(--cor1), var(--cor)) no-repeat;
-    background-size: cover;
+body, html{
+    height: 100vh;
+    width: 100vw;
+    background-color: #5f2c82;
 }
 
 main{
-    margin: auto;
-}
-
-section{
-  display: flex;              /* Coloca as divs lado a lado */
-  justify-content: center;    /* Centraliza horizontalmente */
-  align-items: center;        /* Centraliza verticalmente (opcional) */
-  height: 100vh;              /* Ocupa a tela toda (opcional) */
-  padding: 20px;
-  gap: 60px;
-}
-
-#imagen{
-    
-    padding: 40px;
-    background-color: black;
-    width: 400px;
-    height: 270px;
-    position: absolute;
-    margin-left: 480px;
-    background: url(../imagens/pexels-dinnow-86001860-9444476.jpg) left center;
-    border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 4px 8px black;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 #formulario{
     background-color: white;
-    width: 400px;
-    height: 270px;
+    height: 300px;
+    width: 250px;
     position: absolute;
-    margin-right: 480px;
-    padding: 40px;
-    border-radius: 15px 0px 0px 15px;
-    box-shadow: 10px 4px 8px black;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
 }
 
-.material-symbols-outlined{
-    vertical-align: middle;
-}
-
-span{
-    padding-top: 1px;
-    background-color: #5f2c82;
-    color: white;
+#imagen{
+    background: url(../imagens/pexels-dinnow-86001860-9444476.jpg) left center no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 input[type="email"]{
     padding: 3px;
     height: 30px;
-    width: 350px;
+    width: 200px;
     border-radius: 10px;
     background-color: #66cecab4;
     transition: 0.3s;
     border: #49a09d;
+
 }
 
 input[type="password"]{
     padding: 3px;
     height: 30px;
-    width: 350px;
+    width: 200px;
     border-radius: 10px;
     background-color: #66cecab4;
     transition: 0.3s;
-    border: #49a09d;
+    border: #66cecab4;
 }
 
 input[type="email"]:focus,
@@ -101,33 +84,31 @@ input[type="password"]:focus{
     background-color: transparent;
 }
 
+
+.material-symbols-outlined{
+    vertical-align: middle;
+}
+
 input[type="submit"]{
+    width: 240px;
+    color: white;
+    background-color: #66cecab4;
+    border: #66cecab4;
+    height: 30px;
     border-radius: 10px;
-    background-color: #49a09d;
-    border: #49a09d;
-    margin-left: 30px;
-    width: 350px;
-    height: 35px;
 }
 
 input:hover[type="submit"]{
-    background-color: #224b49;
+   background-color: #49a09d;
 }
 
-a{
-   text-decoration: none;
-   margin-left: 140px;
+p > a:hover{
    color: #49a09d;
+   text-decoration: underline;
 }
 
-a:hover{
-    color: #224b49;
-    text-decoration: underline;
-}
-
-.espaço{
-    padding: 20px;
-    font-size: 1.1em;
-    text-align: justify;
-    
+p >a{
+   margin-left: 60px;
+   text-decoration: none;
+   color: #66cecab4;
 }
