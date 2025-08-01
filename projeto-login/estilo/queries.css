@@ -20,7 +20,7 @@
 
 body{
     overflow: hidden;
-    background: linear-gradient(to bottom, var(--cor1), var(--cor)) no-repeat;
+    background: linear-gradient(to bottom, var(--cor1), var(--cor2)) no-repeat;
     background-size: cover;
 }
 
@@ -49,8 +49,10 @@ section{
     height: 250px;
     position: absolute;
     background: url(../imagens/pexels-dinnow-86001860-9444476.jpg) left center;
+    background-size: cover;
     margin-left: -530px;
     padding: 10px;
+    box-shadow: 0px 0px 8px black;
     border-radius: 15px 0px 0px 15px;
     
 }
@@ -65,7 +67,7 @@ section{
     transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 4px 8px black;
+    box-shadow: 0px 0px 8px black;
 }
 
 .material-symbols-outlined{
@@ -74,7 +76,7 @@ section{
 
 span{
     padding-top: 1px;
-    background-color: #5f2c82;
+    background-color: rgba(0, 0, 0, 0.459);
     color: white;
 }
 
@@ -83,7 +85,7 @@ input[type="email"]{
     height: 30px;
     width: 500px;
     border-radius: 10px;
-    background-color: #66cecab4;
+    background-color: gray;
     transition: 0.3s;
     border: #49a09d;
     
@@ -94,9 +96,10 @@ input[type="password"]{
     height: 30px;
     width: 500px;
     border-radius: 10px;
-    background-color: #66cecab4;
+    background-color: gray;
     transition: 0.3s;
     border: #49a09d;
+    
 }
 
 input[type="email"]:focus,
@@ -106,7 +109,7 @@ input[type="password"]:focus{
 
 input[type="submit"]{
     border-radius: 10px;
-    background-color: #49a09d;
+    background-color: gray;
     border: #49a09d;
     margin-left: 36px;
     width: 500px;
@@ -116,18 +119,18 @@ input[type="submit"]{
 }
 
 input:hover[type="submit"]{
-    background-color: #224b49;
+    background-color: #556270;
 }
 
 p >a{
    text-decoration: none;
    padding-left: 160px;
    margin-bottom: 20px;
-   color: #49a09d;
+   color: gray;
 }
 
-a:hover{
-    color: #224b49;
+p >a:hover{
+    color: black;
     text-decoration: underline;
 }
 
@@ -163,13 +166,17 @@ a:hover{
 
 body{
     overflow: hidden;
-    background: linear-gradient(to bottom, var(--cor1), var(--cor)) no-repeat;
+    background: linear-gradient(to bottom, var(--cor1), var(--cor2)) no-repeat;
     background-size: cover;
 }
 
 main{
+    max-width: 1000px;
     margin: auto;
-    max-width: 800px;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
 }
 
 section{
@@ -178,34 +185,37 @@ section{
   align-items: center;        /* Centraliza verticalmente (opcional) */
   height: 100vh;              /* Ocupa a tela toda (opcional) */
   padding: 20px;
-  gap: 60px;
+  position: relative;
 }
 
 #imagen{
+    display: block;
     padding: 40px;
     background-color: black;
     width: 400px;
     height: 270px;
     position: absolute;
-    left: 79%;
+    left: 74%;
     top: 50%;
     transform: translate(-50%, -50%);
     background: url(../imagens/pexels-dinnow-86001860-9444476.jpg) left center;
+    background-size: cover;
     border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 4px 8px black;
+    box-shadow: 0px 0px 8px black;
 }
 
 #formulario{
     background-color: white;
     width: 400px;
     height: 270px;
+    display: block;
     position: absolute;
-    left: 19%;
+    left: 26%;
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
     border-radius: 15px 0px 0px 15px;
-    box-shadow: 10px 4px 8px black;
+    box-shadow: 0px 0px 8px black;
 }
 
 .material-symbols-outlined{

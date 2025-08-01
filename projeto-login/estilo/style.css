@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     padding: 0%;
     margin: 0%;
@@ -7,8 +8,9 @@
 }
 
 :root{
-    --cor :#49a09d;
-    --cor1 :#5f2c82;
+    --cor :var(--cor);
+    --cor1 : gray;
+    --cor2 : #556270;
 }
 
 h1{
@@ -25,29 +27,30 @@ h1{
 body, html{
     height: 100vh;
     width: 100vw;
-    background-color: #5f2c82;
+    background-color: rgba(128, 128, 128, 0.644);
 }
 
-main{
-    position: relative;
+main{ 
     height: 100vh;
     width: 100vw;
 }
 
 #formulario{
     background-color: white;
-    height: 300px;
+    height: 270px;
     width: 250px;
     position: absolute;
     left: 50%;
-    top: 63%;
-    transform: translate(-50%, -50%);
+    top: 56%;
+    transform: translate(-50%, -30%);
     padding: 10px;
     border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 10px black;
 }
 
 #imagen{
     background: url(../imagens/pexels-dinnow-86001860-9444476.jpg) left center no-repeat;
+    background-size: cover;
     position: absolute;
     left: 50%;
     top: 30%;
@@ -57,6 +60,7 @@ main{
     padding: 10px;
     border-radius: 15px 15px 0px 0px;
 }
+
 
 input[type="email"]{
     padding: 3px;
@@ -112,3 +116,4 @@ p >a{
    text-decoration: none;
    color: #66cecab4;
 }
+
