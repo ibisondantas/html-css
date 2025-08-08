@@ -14,8 +14,9 @@
 }
 
 h1{
-    text-align: center;
-    padding: 7px;
+   text-align: center;
+   margin-top: -10px;
+   margin-bottom: -6px;
 }
 
 .espaço{
@@ -24,53 +25,59 @@ h1{
     padding: 5px;
 }
 
-body, html{
+body, html {
     height: 100vh;
     width: 100vw;
     background-color: #78576b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main{ 
-    height: 100vh;
-    width: 100vw;
+main {
+    display: flex;
+    flex-direction: column; /* Coloca uma div abaixo da outra */
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-#formulario{
+/* remove posições absolutas */
+#imagen {
+    background: url(../imagens/pexels-dinnow-86001860-9444476.jpg) center center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 18px 18px 0px 0px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: -188%;
+}
+
+#formulario {
     background-color: white;
     height: 270px;
     width: 250px;
-    position: absolute;
-    left: 50%;
-    top: 56%;
-    transform: translate(-50%, -30%);
     padding: 10px;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 18px 18px;
     box-shadow: 0px 0px 10px black;
-    transition: width .4s, height .4s;
-    transition-timing-function: ease;
+    box-sizing: border-box;
+    margin-top: -30%;
 }
 
-#imagen{
-    background: url(../imagens/pexels-dinnow-86001860-9444476.jpg) left center no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    width: 250px;
-    padding: 10px;
-    border-radius: 15px 15px 0px 0px;
-    box-shadow: 0px 0px 10px black;
+.campo{
+    background-color: purple;
+    padding: 2px;
+    border-radius: 5px;
 }
-
 
 input[type="email"]{
     padding: 3px;
+    margin-bottom: -10px;
     height: 30px;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
-    background-color: #66cecab4;
+    background-color: #285352b4;
     transition: 0.3s;
     border: #49a09d;
 
@@ -78,10 +85,11 @@ input[type="email"]{
 
 input[type="password"]{
     padding: 3px;
+    margin-bottom: -10px;
     height: 30px;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
-    background-color: #66cecab4;
+    background-color: #285352b4;
     transition: 0.3s;
     border: #66cecab4;
 }
@@ -97,10 +105,10 @@ input[type="password"]:focus{
 }
 
 input[type="submit"]{
-    width: 240px;
+    width: 100%;
     color: white;
-    background-color: #66cecab4;
-    border: #66cecab4;
+    background-color: #285352b4;
+    border: #4f9e9bb4;
     height: 30px;
     border-radius: 10px;
 }
@@ -117,6 +125,8 @@ p > a:hover{
 p >a{
    margin-left: 60px;
    text-decoration: none;
-   color: #66cecab4;
+   color: #285352b4;
+   display: block;
+   margin-top: -18px;
 }
 

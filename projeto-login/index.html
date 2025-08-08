@@ -12,7 +12,6 @@
 
     <main>
         <section>
-
             <div id="formulario">
                <h1>login</h1>
 
@@ -20,17 +19,19 @@
 
                <form action="envio.php" method="get">
 
-                  <p>
-                    <label for="iemail"><span class="material-symbols-outlined" style="font-size: 30px;">person</span>
-                    </label>
-                    <input type="email" name="email" id="iemail" size="40" required placeholder="Seu E-mail" maxlength="10">
-                  </p>
+                  
+                    <div class="campo">
+                      <label for="iemail"><span class="material-symbols-outlined" style="font-size: 30px;">person</span>
+                      </label>
+                      <input type="email" name="email" id="iemail" size="40" required placeholder="Seu E-mail" maxlength="10">
+                    </div>
+                  
                     <br>
-                  <p>
+                  <div class="campo">
                     <label for="isenha"><span class="material-symbols-outlined" style="font-size: 30px;">vpn_key</span>
                     </label>
                     <input type="password" name="senha" id="isenha" size="40" required placeholder="Sua Senha">
-                  </p>
+                  </div>
                     <br>
                   <p>
                     <input type="submit" value="Entrar">

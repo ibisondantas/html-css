@@ -1,0 +1,39 @@
+@media screen and (min-width: 400px) and (max-width:900px){
+
+    #cabeça{
+        width: 100%;
+    }
+
+    .outroslinks{
+        height: 70px;
+    }
+    
+    .outroslinks > nav > ul{
+    margin-left: -0.5%;
+    
+}
+    .outroslinks > nav > ul >li{
+        padding: 5px;
+        margin-top: 1px;
+        
+    }
+
+    .outroslinks > nav > ul > li >a{
+        font-size: 0.8em;
+    }
+
+    body, html{
+        overflow-x: hidden;
+        width: 100%;
+        background-color: rgb(49, 49, 49);
+    }
+
+    .secti{
+        width: 80vw;
+    }
+
+    main{
+        max-width: 80%;
+    }
+
+}
